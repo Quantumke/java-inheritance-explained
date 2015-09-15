@@ -12,86 +12,24 @@ package animal;
  * @author HP
  */
 public class Animal {
-String name;
- int age;
- String Type;
- 
- public void setAge(int animalage)
-{
-    //Instantiating a class
-    int Age = animalage; 
+
+
     
-}
- //Creating a class constructor
-public int getAge()
-{
-    int Age = 0;
-    System.out.println(age);
-return Age; 
-}
-
-public void setName(String Animalname)
-{ 
-    String Name = Animalname;
-}
-public String getName()
-{ 
-    String Name = "Bosco";
-    System.out.println(name);
-return Name; 
- 
-}
-public void setatype(String Animaltype)
-{ 
-    String atype = Animaltype;
-}
-public String getType()
-{ 
-    String atype = "Dog";
-    System.out.println(atype);
-return atype; 
-}
-
-    private static class Animals {
-
-        public Animals() {
-        }
-    }
-
-class mamals extends Animals
-{ 
-   public void setvebaviour(String warmblood)
-{ 
-    String vebaviour = warmblood;
-}
-public String getvehaviour()
-{ 
-    String vebaviour = "warmblooded";
-    System.out.println(vebaviour);
-return vebaviour; 
- 
-}
     
- 
-
- public void setbirth(String giveBirth)
-{ 
-    String birth = giveBirth;
-}
-public String getbirth()
-{ 
-    String birth = "givesbirth";
-    System.out.println(birth);
-return birth; 
- 
-}
-
-
-}
-
+    
 
     public static void main(String[] args) {
-        // TODO code application logic here
+       {
+        int x = 0;
+        do
+{ 
+            x = x + 1;
+              System.out.println(x);
+        }
+        while (x < 20);
+      
+    }
+
     }
     
 }
